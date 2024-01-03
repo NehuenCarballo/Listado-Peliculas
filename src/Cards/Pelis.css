@@ -1,0 +1,56 @@
+body {
+  /*/background-color: rgb(8, 27, 44);*/
+  /*background: linear-gradient(to left, rgb(8, 27, 44), rgba(17, 0, 209, 0.801));*/
+  background: linear-gradient(to left, rgba(1, 52, 110, 0.733), rgb(8, 27, 44));
+}
+
+.Header {
+  border: 2px black;
+  border-radius: 15px;
+  height: auto;
+  width: 800px;
+  border-style: ridge;
+  background-color: rgb(27, 44, 59);
+  margin: auto;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 2px 0px 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Cambria;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+}
+
+.image {
+  width: 30ch;
+  min-height: 35ch;
+  max-height: 35ch;
+  border-radius: 10px;
+}
+
+.Container {
+  background-color: rgb(220, 241, 255);
+  margin: auto;
+  margin-bottom: 8px;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  height: auto;
+  width: 800px;
+  display: flex;
+}
+
+.Container > div {
+  margin: 5px;
+  padding: 8px;
+}
